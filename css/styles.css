@@ -1,44 +1,30 @@
-.container {
-  background-color: #ff8630;
-  padding: 55px 40px;
+/* HTML CSSResult Skip Results Iframe
+EDIT ON */
+* {
+  box-sizing: border-box;
 }
-span {
-  content: "\2103";
-}
-table {
-  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
-  margin: 3rem;
+
+body {
   font-family: sans-serif;
-  border-collapse: collapse;
-}
-caption {
-  font-size: 20px;
-  margin-bottom: 1rem;
-}
-thead {
-  background-color: #555;
-  color: #fff;
+  line-height: 1.5;
 }
 
-td,
-th {
-  padding: 0.5rem 1rem;
-  border: 1px solid #888;
-  text-align: center;
-}
+.chat-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
 
-td[colspan] {
-  background-color: #eee;
-}
+  display: inline-block;
+  width: 64px;
+  height: 64px;
 
-.box::before {
-  content: "Это текст в ::before";
-  font-size: 40px;
-  color: orange;
-}
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
 
-.box::after {
-  content: "Это текст в ::after";
-  font-size: 30px;
-  color: teal;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1653/1653630.png");
+  background-size: contain;
+
+  cursor: pointer;
 }
