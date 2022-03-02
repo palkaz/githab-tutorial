@@ -30,3 +30,15 @@ th {
 td[colspan] {
   background-color: #eee;
 }
+
+.box::before {
+  content: "Это текст в ::before";
+  font-size: 40px;
+  color: orange;
+}
+
+.box::after {
+  content: "Это текст в ::after";
+  font-size: 30px;
+  color: teal;
+}
